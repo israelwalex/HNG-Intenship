@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkslategray;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px 40px 20px;
+}
+
+.header>p {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    flex: 30%;
+}
+
+.header-right {
+    border-left: 1px solid gray;
+    flex-basis: 70%;
+    margin-top: 10px;
+    padding: 15px 40px;
+}
+
+.header-right>p {
+    margin-bottom: -10px;
+}
+
+.body-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education {
+    margin-left: 30px;
+    margin-top: 10px;
+    flex-basis: 30%;
+}
+
+.experience {
+    flex-basis: 70%;
+    border-left: 1px solid gray;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.job {
+    word-spacing: 0.2em;
+    line-height: 1.3em;
+    flex-basis: 80%;
+}
+
+.details {
+    flex-basis: 60%;
+}
+
+.topic {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+}
+
+.edu-topic {
+    flex-basis: 25%;
+}
+
+.exp-topic {
+    flex-basis: 55%;
+}
+
+.skills>h3 {
+    border-bottom: 1px solid gray;
+}
+
+.skills {
+    margin: 30px;
+}
+
+.line {
+    border-bottom: 1px solid gray;
+}
+
+.skill-heading {
+    margin-left: 70px;
+}
+
+.block-head {
+    height: 50px;
+    background-color: turquoise;
+}
+
+.header,
+.topic,
+.skill-heading {
+    font-size: 20px;
+}
+
+.details>a {
+    color: white;
+}
